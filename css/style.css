@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	padding: 8px 30px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+}
+nav .logo{
+	padding: 13px 60px;
+	height: 80px;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: linear-gradient(to left,#DC143C,#e0657e,#e38fa0,#db95a4,#7c84cf,#5662cc,#3645cf);
+    -webkit-background-clip: text;
+    color: transparent;
+	}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	padding: 12px 20px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+    color: #fff;
+}
+nav ul li a:hover{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	background: url("darkgym.jpg");
+	background-size: cover;
+	background-position: center;
+}
+img{
+	background-position: center;
+}
